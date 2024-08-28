@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.sidebar {
+  animation: slide-sidebar 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes slide-sidebar {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bg-black-gradient {
+  background: linear-gradient(144deg, #fff -278%, #6d6d6d -78%, #11101d 100%);
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(130deg, #272727 0%, #11101d 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(
+    15deg,
+    #356dde,
+    #14365f,
+    #29567a,
+    #125d80,
+    #107792,
+    #0d96a5,
+    #09b8b4,
+    #04ccb1
+  ); /* made at https://learnui.design/tools/gradient-generator.html */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.bg-gradient {
+  background: linear-gradient(144deg, #fff -278%, #6d6d6d -78%, #11101d 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.bg-gradient:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.bg-dark-gradient {
+  background: linear-gradient(144deg, #fff -278%, #6d6d6d -78%, #11101d 100%);
+}

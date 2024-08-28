@@ -1,0 +1,17 @@
+export { default as menu } from "./images/menu.svg";
+export { default as logo } from "./images/logo.svg";
+export { default as close } from "./images/close.svg";
+export { default as discount } from "./images/discount.svg";
+export { default as home } from "./images/home.png";
+export { default as card } from "./images/card.png";
+export { default as bill } from "./images/bill.png";
+export { default as google } from "./images/google.svg";
+export { default as apple } from "./images/apple.svg";
+export { default as star } from "./images/star.svg";
+export { default as shield } from "./images/shield.svg";
+export { default as send } from "./images/send.svg";
+export { default as quotes } from "./images/quotes.svg";
+export { default as airbnb } from "./images/airbnb.png";
+export { default as binance } from "./images/binance.png";
+export { default as coinbase } from "./images/coinbase.png";
+export { default as dropbox } from "./images/dropbox.png";
