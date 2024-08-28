@@ -1,6 +1,6 @@
 import "./App.css";
 import { Business, Clients, Cta, Footer, Home, Navbar, Testimonials } from "./components";
-import Billing from "./components/billing";
+import Billing from "./components/Billing";
 import Contract from "./components/Contract";
 import Statistics from "./components/Statistics";
 import { styles } from "./Util/styles";
